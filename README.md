@@ -31,6 +31,18 @@
 | :-------- | :------- | :-------------------------------- |
 | ``      | `Question` |returns the question by id |
 
+#### add new player at database
+
+```http
+  POST localhost:8080/scoreboard/
+```
+
+| Parameter | Return     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `String name, int score`      | `` |save player info in database |
+
+
+
 
 
 ## Authors
