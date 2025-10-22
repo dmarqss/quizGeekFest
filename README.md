@@ -42,6 +42,18 @@
 | `String name, int score`      | `` |save player info in database |
 
 
+#### get top 10 rank
+
+```http
+  GET localhost:8080/scoreboard/
+```
+
+| Parameter | Return     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| ``      | `List<players>` |return a list of top 10 players in JSON |
+
+
+
 
 
 
